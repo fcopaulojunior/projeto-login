@@ -4,4 +4,48 @@
     Paleta de cores
     Verde: #49a09d
     Lilas: #5f2c82
+    Azul: #233eff
 */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #233eff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.700);
+}
+
+section > div#imagem {
+    display: block;
+    background: black url(../imagens/back-phone.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40%;
+}
+
+section > div#formulario {
+    display: block;
+    padding: 10px;
+}
