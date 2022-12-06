@@ -29,7 +29,7 @@ section#login {
     background-color: white;
     display: block;
     width: 280px;
-    height: 500px;
+    height: 430px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,7 +46,7 @@ section > div#imagem {
     background: black url(../imagens/back-phone.jpg);
     background-size: cover;
     background-position: center;
-    height: 40%;
+    height: 30%;
 }
 
 section > div#formulario {
