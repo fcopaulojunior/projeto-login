@@ -32,12 +32,12 @@
 
     main > section#login > div#formulario {
         width: 50%;
-        float: right;
+        float: left;
     }
 
     main > section#login > div#imagem {
         width: 50%;
         height: 100%;
-        float: left;
+        float: right;
     }
 }
