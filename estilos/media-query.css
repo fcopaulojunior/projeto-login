@@ -6,7 +6,8 @@
     }
 
     main > section#login {
-        width: 90vw;
+        width: 80vw;
+        height: 285px;
     }
 
     main > section#login > div#formulario {
@@ -27,7 +28,8 @@
     }
 
     main > section#login {
-        width: 950px;
+        width: 900px;
+        height: 285px;
     }
 
     main > section#login > div#formulario {
